@@ -1,0 +1,23 @@
+{
+  "name": "play-me",
+  "version": "1.0.0",
+  "description": "real time drawing game built using socket.io,node.js and gulp",
+  "main": "index.js",
+  "repository": "https://github.com/Maheshreddy14/play-me",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon --exec babel-node src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.7.4"
+  }
+}
