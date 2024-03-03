@@ -1,6 +1,6 @@
 import { join } from 'path'; 
 import express from 'express';
-import { SocketIO } from 'socket.io';
+import SocketIO from 'socket.io';
 
 const PORT=3000;
 const app=express();
